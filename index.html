@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>测试</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="./js/flexible.js"></script>
+</head>
+<body>
+  <div class="profile-wrapper" v-if="isReady">
+    <div class="member-basic">
+      <div class="member-avatar">
+        <div class="avatar inline-block"></div>
+        <div class="member-summary inline-block">
+          <span class="follower-name block">Jimmy</span>
+          <span class="baby-day block">宝妈，宝宝还有7个月20天就出生了</span>
+        </div>
+      </div>
+    </div>
+    <div class="member-info-container">
+      <div class="tab-title">会员信息</div>
+      <div class="member-info">
+        <div class="property">
+          <span class="property-name">客户姓名</span>
+          <span class="property-value">李志敏</span>
+        </div>
+        <div class="property">
+          <span class="property-name">客户性别</span>
+          <span class="property-value">男</span>
+        </div>
+        <div class="property">
+          <span class="property-name">消费状态</span>
+          <span class="property-value">未消费</span>
+        </div>
+      </div>
+      <div class="baby-info">
+        <div class="property">
+          <span class="property-name">宝宝昵称</span>
+          <span class="property-value">大宝</span>
+        </div>
+        <div class="property">
+          <span class="property-name">宝宝生日</span>
+          <span class="property-value">2016-12-13</span>
+        </div>
+        <div class="property">
+          <span class="property-name">宝宝性别</span>
+          <span class="property-value">男</span>
+        </div>
+        <div class="property">
+          <span class="property-name">宝宝奶粉品牌</span>
+          <span class="property-value">爱他美</span>
+        </div>
+    </div>
+
+    <div class="middle-menu">
+      <div class="purchase-event-history">
+        <div class="left">
+          <div class="left-content current-status">
+            购买记录
+          </div>
+        </div>
+        <div class="right" >
+          <div class="right-content current-status">
+            活动记录
+          </div>
+        </div>
+      </div>
+
+      <div class="middle-menu-content border-bottom">
+        <div class="order-avatar">
+          <img src="./images/default_avatar.png">
+        </div>
+
+        <div class="order-info">
+          <div class="order-customer-name">诺优能经典官行一段</div>
+          <div class="order-customer-name">&nbsp;</div>
+          <div class="order-time">
+            <label>购买时间&nbsp;</label>
+            <span>2017/06/12 15:03:50</span>
+          </div>
+        </div>
+        <div class="order-price">
+          <div class="good-price">12$</div>
+          <div class="good-count">*2</div>
+        </div>
+      </div>
+      <div class="middle-menu-content-tip hide">
+        正在加载...
+      </div>
+      <div  class="middle-menu-content-tip hide">
+        没有记录
+      </div>
+    </div>
+    <div class="tab-title">好孕妈妈</div>
+    <div class="member-remark">
+      <div class="property">
+        <span class="property-name">凭证类型</span>
+        <span class="property-value">身份证</span>
+      </div>
+      <div class="property">
+        <span class="property-name">证件号</span>
+        <span class="property-value">4127231992022755</span>
+      </div>
+      <div class="property">
+        <span class="property-name">妈妈姓名</span>
+        <span class="property-value">李志敏</span>
+      </div>
+    </div>
+    <div class="bottom-menu disabled">
+      <div class="left">
+        <div class="icon inline-block"></div>
+        <div class="content inline-block">填写反馈</div>
+      </div>
+      <div class="right">
+        <div class="icon inline-block"></div>
+        <div class="content inline-block">联系客户</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
